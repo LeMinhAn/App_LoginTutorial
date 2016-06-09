@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoginTutorial</string>
+    <string name="facebook_app_id">1102647646448001</string>
+    <string name="loading">Loading…</string>
+</resources>
