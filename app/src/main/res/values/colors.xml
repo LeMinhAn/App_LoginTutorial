@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="paint_color">#ffffff</color>
+    <color name="style_color_primary">#2d5d82</color>
+    <color name="style_color_primary_dark">#21425d</color>
+    <color name="style_color_accent">#01bcd5</color>
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+    <color name="text_like_counter">#2b5a83</color>
+
     <color name="colorPrimary">#FF03A9F4</color>
     <color name="colorPrimaryDark">#ff0171c9</color>
     <color name="colorAccent">#FF00E5FF</color>
