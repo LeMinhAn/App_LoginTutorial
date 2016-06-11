@@ -3,4 +3,27 @@
     <string name="facebook_app_id">1102647646448001</string>
     <string name="loading">Loading…</string>
     <string name="user_profile_photo">https://avatars1.githubusercontent.com/u/6947495?v=3&amp;s=460</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_global_menu_feed</item>
+        <item>@drawable/ic_global_menu_direct</item>
+        <item>@drawable/ic_global_menu_news</item>
+        <item>@drawable/ic_global_menu_popular</item>
+        <item>@drawable/ic_global_menu_nearby</item>
+        <item>@drawable/ic_global_menu_likes</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
 </resources>
