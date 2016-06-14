@@ -56,36 +56,36 @@ public class SignupActivity extends AppCompatActivity {
         btn_creat_acount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                login();
+//                login();
             }
         });
     }
 
 
-    public void login() {
-
-        if (!validate()) {
-            onLoginFailed();
-            return;
-        }
-        btn_creat_acount.setEnabled(false);
-        final ProgressDialog progressDialog = new ProgressDialog(SignupActivity.this,
-                R.style.AppTheme_Dark_Dialog);
-        progressDialog.setIndeterminate(true);
-        progressDialog.setMessage("Authenticating...");
-        progressDialog.show();
-
-        // TODO: Implement your own authentication logic here.
-
-        new android.os.Handler().postDelayed(
-                new Runnable() {
-                    public void run() {
-                        onLoginSuccess();
-                        // onLoginFailed();
-                        progressDialog.dismiss();
-                    }
-                }, 3000);
-    }
+//    public void login() {
+//
+//        if (!validate()) {
+//            onLoginFailed();
+//            return;
+//        }
+//        btn_creat_acount.setEnabled(false);
+//        final ProgressDialog progressDialog = new ProgressDialog(SignupActivity.this,
+//                R.style.AppTheme_Dark_Dialog);
+//        progressDialog.setIndeterminate(true);
+//        progressDialog.setMessage("Authenticating...");
+//        progressDialog.show();
+//
+//        // TODO: Implement your own authentication logic here.
+//
+//        new android.os.Handler().postDelayed(
+//                new Runnable() {
+//                    public void run() {
+//                        onLoginSuccess();
+//                        // onLoginFailed();
+//                        progressDialog.dismiss();
+//                    }
+//                }, 3000);
+//    }
 
     public boolean validate() {
         boolean valid = true;

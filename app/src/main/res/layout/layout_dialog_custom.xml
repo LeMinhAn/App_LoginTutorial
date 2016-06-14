@@ -40,8 +40,7 @@
         android:layout_marginTop="8dp"
         android:gravity="center_vertical"
         android:paddingLeft="24dp"
-        android:text="Show password"
-        app:v_styleId="@array/checkbox" />
+        android:text="Show password" />
 
     <TextView
         android:id="@+id/link_signup"

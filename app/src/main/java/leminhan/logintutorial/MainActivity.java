@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity implements
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                login();
+//                login();
             }
         });
         iv_facebook.setOnClickListener(new View.OnClickListener() {
@@ -257,29 +257,29 @@ public class MainActivity extends AppCompatActivity implements
 //        }
     }
 
-    public void login() {
-        if (!validate()) {
-            onLoginFailed();
-            return;
-        }
-        btn_login.setEnabled(false);
-        final ProgressDialog progressDialog = new ProgressDialog(MainActivity.this,
-                R.style.AppTheme_Dark_Dialog);
-        progressDialog.setIndeterminate(true);
-        progressDialog.setMessage("Authenticating...");
-        progressDialog.show();
-
-        // TODO: Implement your own authentication logic here.
-
-        new android.os.Handler().postDelayed(
-                new Runnable() {
-                    public void run() {
-                        onLoginSuccess();
-                        // onLoginFailed();
-                        progressDialog.dismiss();
-                    }
-                }, 3000);
-    }
+//    public void login() {
+//        if (!validate()) {
+//            onLoginFailed();
+//            return;
+//        }
+//        btn_login.setEnabled(false);
+//        final ProgressDialog progressDialog = new ProgressDialog(MainActivity.this,
+//                R.style.AppTheme_Dark_Dialog);
+//        progressDialog.setIndeterminate(true);
+//        progressDialog.setMessage("Authenticating...");
+//        progressDialog.show();
+//
+//        // TODO: Implement your own authentication logic here.
+//
+//        new android.os.Handler().postDelayed(
+//                new Runnable() {
+//                    public void run() {
+//                        onLoginSuccess();
+//                        // onLoginFailed();
+//                        progressDialog.dismiss();
+//                    }
+//                }, 3000);
+//    }
 
     public boolean validate() {
         boolean valid = true;

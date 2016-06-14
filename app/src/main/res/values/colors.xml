@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="primaryColor">@android:color/holo_purple</color>
+    <color name="primaryColorDark">#ccaa66cc</color>
+    <color name="primaryColorLight">@android:color/holo_purple</color>
+    <color name="almostWhite">#EEEEEE</color>
+
     <color name="list_item_title">#fff</color>
     <color name="list_background">#303030</color>
     <color name="list_background_pressed">#992416</color>
@@ -8,7 +14,7 @@
     <color name="counter_text_color">#c5c4c4</color>
     <!-- Reveal transition colors -->
     <color name="color_set_1_primary">#4fc3f7</color>
-    <color name="color_set_1_accent">#009688</color>
+    <color name="color_set_1_accent">#FF00E5FF</color>
 
     <color name="color_set_2_primary">#42bd41</color>
     <color name="color_set_2_accent">#673AB7</color>
